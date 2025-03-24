@@ -1,0 +1,95 @@
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0000003c;
+  border-radius: 4px;
+  padding: 100px 50px;
+}
+
+h1 {
+  align-self: flex-start;
+  color: #000000ad;
+}
+
+label {
+  font-weight: 400;
+  display: flex;
+  margin-bottom: 5px;
+  color: #000000ad;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border: 1px solid #0000003c;
+  border-radius: 0.3rem;
+  outline: none;
+  margin: 1px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  border-color: #0000003c;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.names>div {
+  position: relative;
+}
+
+.names>div>input[type="text"] {
+  width: 190px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.textarea {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.textarea>div {
+  display: inline-block;
+  position: relative;
+}
+
+.email {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+input[type="email"] {
+  width: 400px;
+}
+
+button {
+  align-self: center;
+  margin-top: 10px;
+  border: none;
+  color: #fffffff2;
+  background-color: #000000d8;
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
