@@ -53,3 +53,8 @@ To use the form, simply enter the required information in the fields:
 4. **Message**: Enter a message to send.
 
 Upon successful submission, the form resets and it will alert the user.
+
+### Screenshot
+
+![Todo App Screenshot](./screenshots/image.png)
+![Todo App Screenshot](./screenshots/image1.png)
